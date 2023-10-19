@@ -1,0 +1,54 @@
+.navigation {
+  height: 50px;
+  background-color: #23252B;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu .profile-info {
+  position: absolute;
+  right: 10px;
+}
+
+.menu img#logo {
+  display: none;
+}
+
+.menu img#profile {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.menu ul {
+  display: none;
+}
+
+.menu a {
+  display: block;
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  text-decoration: none;
+  position: relative;
+  right: 65px;
+  top: 70px;
+}
+
+.menu a:hover {
+  background-color: #23252B;
+  color: #fff;
+}
+
+.menu span {
+  cursor: pointer;
+  padding: 10px;
+}

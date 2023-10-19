@@ -1,0 +1,48 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cards button {
+  display: inline-block;
+  width: 50px;
+  height: 380px;
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 2em;
+}
+
+.cards button#next {
+  right: 0px;
+}
+
+.cards button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  width: 260px;
+  height: 370px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.card-title {
+  padding: 10px;
+}
+
+.card-footer {
+  color: gray;
+  position: relative;
+  left: 10px;
+}
+
+.card-image {
+  width: 260px;
+  height: 370px;
+}
+

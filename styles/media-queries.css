@@ -1,0 +1,36 @@
+@media screen and (min-width: 1024px) {
+  .navigation {
+    padding: 10px;
+  }
+
+  .menu img#logo {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .menu span#burguer {
+    display: none;
+  }
+  
+  .menu ul {
+    display: block;
+  }
+
+  .menu li {
+    float: left;
+  }
+
+  .menu a {
+    position: static;
+    margin-right: 20px;
+    background-color: #23252B;
+    color: white;
+  }
+
+  .menu a:hover {
+    color: #707070;
+  }
+  
+
+}
