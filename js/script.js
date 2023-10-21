@@ -2,52 +2,52 @@ const cards = document.querySelector('.cards');
 
 const animes = {
   '0': {
-    'src': '../img/anime1.jpg',
+    'src': './img/anime1.jpg',
     'title': 'SK8 the Infinity',
     'footer': 'Sub | Dub'
   },
   '1': {
-    'src': '../img/anime2.jpg',
+    'src': './img/anime2.jpg',
     'title': 'DARLING in the FRANXX',
     'footer': 'Sub | Dub'
   },
   '2': {
-    'src': '../img/anime3.jpg',
+    'src': './img/anime3.jpg',
     'title': 'SPY x FAMILY',
     'footer': 'Sub | Dub'
   }, 
   '3': {
-    'src': '../img/anime4.jpg',
+    'src': './img/anime4.jpg',
     'title': 'Tokyo Ghoul',
     'footer': 'Sub | Dub'
   },
   '4': {
-    'src': '../img/anime5.jpg',
+    'src': './img/anime5.jpg',
     'title': 'JUJUTSU KAISEN',
     'footer': 'Sub | Dub'
   },
   '5': {
-    'src': '../img/anime6.jpg',
+    'src': './img/anime6.jpg',
     'title': 'Naruto',
     'footer': 'Subtitled'
   },
   '6': {
-    'src': '../img/anime7.jpg',
+    'src': './img/anime7.jpg',
     'title': 'Demon Slayer: Kimetsu no Yaiba',
     'footer': 'Sub | Dub'
   },
   '7': {
-    'src': '../img/anime8.jpg',
+    'src': './img/anime8.jpg',
     'title': 'Shinobi no Ittoki',
     'footer': 'Sub | Dub'
   },
   '8': {
-    'src': '../img/anime9.jpg',
+    'src': './img/anime9.jpg',
     'title': 'SANIKUI BISCO',
     'footer': 'Sub | Dub'
   },
   '9': {
-    'src': '../img/anime10.jpg',
+    'src': './img/anime10.jpg',
     'title': 'Naruto Shippuden',
     'footer': 'Subtitled'
   }
